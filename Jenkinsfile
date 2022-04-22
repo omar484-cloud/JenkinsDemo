@@ -30,6 +30,7 @@ pipeline {
           gv.buildApp()
         }
       }
+    }
 
     stage("test") {
       when {
