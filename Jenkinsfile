@@ -21,11 +21,11 @@ pipeline {
       }
     }
     stage("test") {
-      //when {
-        //expression {
-        //  BRANCH_NAME == 'dev' || BRANCH_NAME == 'main'
-        //}
-      //}
+      when {
+        expression {
+          params.executeTests
+        }
+      }
       steps {
         echo 'testing the application...'
       }
