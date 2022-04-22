@@ -38,7 +38,6 @@ pipeline {
           //usernamePassword(credentials: 'MyGitHub', usernameVariable: USER, passwordVariable: PWD)
         //]) {
           //sh "some script ${USER} ${PWD}"
-        }
       }
     }
   }
