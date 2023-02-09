@@ -1,0 +1,13 @@
+# PyCharm
+.idea/*
+
+# Bytecompiled / optimized / DLL files
+__pycache__
+
+**/*.zip
+
+# Environments
+venv/**
+
+# Logs
+logs/*.log
